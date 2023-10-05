@@ -1,0 +1,306 @@
+    <section id="target" class="container">
+        <!-- target Inner -->
+        <div class="inner target">
+            <!-- Header -->
+            <h1 class="header uppercase dark oswald">
+                đối tượng tham gia dự án
+            </h1>
+            <!-- Header Strip(s) -->
+            <div class="header-strips-one"></div>
+            <!-- target Boxes -->
+            <div class="target-boxes t-center">
+                <!-- target Box -->
+                <div class="item col-sx-12 col-sm-6 col-md-3">
+                    <!-- Box Inner -->
+                    <div class="box-inner">
+                        <div class="details">
+                            <!-- Icon -->
+                            <img class="ic_img2" src="images/svg/s21.svg">
+                            <!-- Description -->
+                            <p class="member-description normal">
+                                Điều dưỡng viên hoặc y sĩ đa khoa đã tốt nghiệp Trung cấp trở lên, có chứng nhận hoặc bằng tốt nghiệp
+                            </p>
+                        </div>
+                        <!-- Details -->
+                    </div>
+                    <!-- End target Box Inner -->
+                </div>
+                <!-- End target Box -->
+                <!-- target Box -->
+                <div class="item col-sx-12 col-sm-6 col-md-3">
+                    <!-- Box Inner -->
+                    <div class="box-inner">
+                        <div class="details">
+                            <!-- Icon -->
+                            <img class="ic_img2" src="images/svg/s22.svg">
+                            <!-- Description -->
+                            <p class="member-description normal">
+                                Học sinh đã tốt nghiệp Trung học phổ thông có nguyện vọng tham gia chương trình<br><Br>
+                            </p>
+                        </div>
+                        <!-- Details -->
+                    </div>
+                    <!-- End target Box Inner -->
+                </div>
+                <!-- End target Box -->
+                <!-- target Box -->
+                <div class="item col-sx-12 col-sm-6 col-md-3">
+                    <!-- Box Inner -->
+                    <div class="box-inner">
+                        <div class="details">
+                            <!-- Icon -->
+                            <img class="ic_img2" src="images/svg/s23.svg">
+                            <!-- Description -->
+                            <p class="member-description normal">
+                                Ưu tiên ứng viên dưới 30 tuổi, chưa lập gia đình và có hộ khẩu thường trú tại khu vực đồng bằng sông Cửu Long
+                            </p>
+                        </div>
+                        <!-- Details -->
+                    </div>
+                    <!-- End target Box Inner -->
+                </div>
+                <!-- End target Box -->
+                <!-- target Box -->
+                <div class="item col-sx-12 col-sm-6 col-md-3">
+                    <!-- Box Inner -->
+                    <div class="box-inner box-special">
+                        <div class="details">
+                            <!-- Icon -->
+                            <img class="ic_img2" src="images/svg/s24.svg">
+                            <!-- Description -->
+                            <p class="member-description bold">
+                                Ưu tiên ứng viên đã có bằng B2 tiếng Đức theo khung tham chiếu Châu Âu. Ứng viên đã có bằng B2 được tài trợ 100% vé máy bay sang CHLB Đức
+                            </p>
+                        </div>
+                        <!-- Details -->
+                    </div>
+                    <!-- End target Box Inner -->
+                </div>
+                <!-- End target Box -->
+                <!-- Ended Boxes -->
+            </div>
+            <!-- End target Boxes -->
+        </div>
+        <!-- End target Inner -->
+    </section>
+
+
+    <div class="about inner">
+        <!-- First Content -->
+        <div class="about-content col-sx-12 col-sm-6 col-md-3">
+            <div class="icon top">
+                <i class="fa fa-check "></i>
+            </div>
+            <div class="content-header text">Hỗ trợ học phí</div>
+            <div class="content-desc text">Dự án hỗ trợ tối đa ứng viên về học phí và tài chính. Dự án cố gắng bảo đảm nhất có thể về chất lượng và giá trị lâu dài mà dự án mang lại cho từng ứng viên tham gia</div>
+            <div class="icon bottom">
+                <i class="fa fa-arrow-circle-down"></i>
+            </div>
+        </div>
+        <!-- Second Content -->
+        <div class="about-content col-sx-12 col-sm-6 col-md-3">
+            <div class="icon top">
+                <i class="fa fa-briefcase"></i>
+            </div>
+            <div class="content-header text">Cơ hội học tập, làm việc</div>
+            <div class="content-desc text">Cơ hội học tập và làm việc tại môi trường hiện đại của CHLB Đức, một trong những quốc gia đáng sống nhất tại Châu Âu. Trải nghiệm văn hoá, nâng cao tay nghề và chất lượng cuộc sống.</div>
+            <div class="icon bottom">
+                <i class="fa fa-arrow-circle-down"></i>
+            </div>
+        </div>
+        <!-- Third Content -->
+        <div class="about-content col-sx-12 col-sm-6 col-md-3">
+            <div class="icon top">
+                <i class="fa fa-rocket"></i>
+            </div>
+            <div class="content-header text">Cơ hội định cư</div>
+            <div class="content-desc text">Cơ hội định cư tại một trong những quốc gia với môi trường đáng sống nhất tại Châu Âu. Ứng viên có nhu cầu định cư tại CHLB Đức sẽ được chúng tôi tư vấn theo từng trường hợp.</div>
+            <div class="icon bottom">
+                <i class="fa fa-arrow-circle-down"></i>
+            </div>
+        </div>
+        <!-- Fourth Content -->
+        <div class="about-content col-sx-12 col-sm-6 col-md-3">
+            <div class="icon top">
+                <i class="fa fa-usd"></i>
+            </div>
+            <div class="content-header text">Tiết kiệm tài chính</div>
+            <div class="content-desc text">Tiết kiệm tài chính 37 triệu đồng một tháng cho bản thân, mức tiết kiệm đã trừ học phí và các chi phí ăn, ở, sinh hoạt tại CHLB Đức. Chi phí một tháng vào khoảng 37 triệu</div>
+            <div class="icon bottom">
+                <i class="fa fa-arrow-circle-down"></i>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+        <!-- Features Section -->
+        <section id="features" class="container">
+            <!-- Features Background -->
+            <div class="features-background soft-bg-1 bg1 parallax3 t-center"></div>
+            <!-- Features Inner -->
+            <div class="inner features">
+                <!-- Header -->
+                <h1 class="header uppercase white oswald">
+                    ưu đãi chỉ có trong đợt tuyển sinh này
+                </h1>
+                <!-- Header Strip(s) -->
+                <div class="header-strips-one"></div>
+                <!-- Header Description -->
+                <h2 class="description white">
+                    Thời gian ưu đã của trương trình từ 01/07/2018 - 01/09/2018
+                </h2>
+                <!-- Features With Mobile -->
+                <ul class="features-mobile clearfix animated" data-animation="fadeIn" data-animation-delay="200">
+                    <!-- Feature Box -->
+                    <li class="feature-box animated" data-animation="fadeIn" data-animation-delay="200">
+                        <!-- Feature Box Icon -->
+                        <a class="box-icon">
+                            <!-- Icon -->
+                            <i class="fa fa-eur"></i>
+                        </a>
+                        <!-- Feature Texts -->
+                        <div class="feature-texts">
+                            <!-- Feature Box Header -->
+                            <h1 class="box-head white oswald uppercase">
+                                100% học phí
+                            </h1>
+                            <!-- Feature Box Description -->
+                            <p class="box-desc white semibold">
+                               Ứng viên tham gia chương trình sẽ được hỗ trợ 100% học phí trong vòng 3 năm học tập tại CHLB Đức
+                        <!-- End Feature Texts -->
+                    </li>
+                    <!-- End Feature Box -->
+                    <!-- Feature Box -->
+                    <li class="feature-box animated" data-animation="fadeIn" data-animation-delay="200">
+                        <!-- Feature Box Icon -->
+                        <a class="box-icon">
+                            <!-- Icon -->
+                            <i class="fa fa-plane"></i>
+                        </a>
+                        <!-- Feature Texts -->
+                        <div class="feature-texts">
+                            <!-- Feature Box Header -->
+                            <h1 class="box-head white oswald uppercase">
+                                100% vé máy bay
+                            </h1>
+                            <!-- Feature Box Description -->
+                            <p class="box-desc white semibold">
+                                Hỗ trợ 100% vé máy bay sang Đức cho ứng viên đã có bằng B2 tiếng Đức theo khung tham chiếu Châu Âu
+                            </p>
+                        </div>
+                        <!-- End Feature Texts -->
+                    </li>
+                    <!-- End Feature Box -->
+                    <!-- Feature Box -->
+                    <li class="feature-box animated" data-animation="fadeIn" data-animation-delay="400">
+                        <!-- Feature Box Icon -->
+                        <a class="box-icon">
+                            <!-- Icon -->
+                            <i class="fa fa-credit-card"></i>
+                        </a>
+                        <!-- Feature Texts -->
+                        <div class="feature-texts">
+                            <!-- Feature Box Header -->
+                            <h1 class="box-head white oswald uppercase">
+                                100% chi phí
+                            </h1>
+                            <!-- Feature Box Description -->
+                            <p class="box-desc white semibold">
+                                Ứng viên tham gia chương trình sẽ được hỗ trợ 100% chi phí ăn, ở trong vòng 3 năm tại CHLB Đức
+                            </p>
+                        </div>
+                        <!-- End Feature Texts -->
+                    </li>
+                    <!-- End Feature Box -->
+                    <!-- Feature Box -->
+                    <li class="feature-box animated" data-animation="fadeIn" data-animation-delay="400">
+                        <!-- Feature Box Icon -->
+                        <a class="box-icon">
+                            <!-- Icon -->
+                            <i class="fa fa-university"></i>
+                        </a>
+                        <!-- Feature Texts -->
+                        <div class="feature-texts">
+                            <!-- Feature Box Header -->
+                            <h1 class="box-head white oswald uppercase">
+                                hỗ trợ vay
+                            </h1>
+                            <!-- Feature Box Description -->
+                            <p class="box-desc white semibold">
+                                Ứng viên tham gia chương trình sẽ được hỗ trợ vay vốn không lãi suất để học tập
+                            </p>
+                        </div>
+                        <!-- End Feature Texts -->
+                    </li>
+                    <!-- End Feature Box -->
+                </ul>
+                <!-- End Feature Boxes -->
+            </div>
+            <!-- End Features Inner -->
+        </section>
+        <!-- End Features Section -->
+
+
+
+            <!-- Form -->
+    <section id="contact" class="container soft-bg-1 parallax7">
+        <!-- Inner -->
+        <div class="inner">
+            <!-- Header -->
+            <h1 class="header uppercase white oswald">
+                đăng ký tham gia
+            </h1>
+            <!-- Header Strip(s) -->
+            <div class="header-strips-one"></div>
+            <!-- Contact -->
+            <div class="contact animated" data-animation="fadeIn" data-animation-delay="200">
+                <!-- Contact Form -->
+                <form id="contact-form" name="cform" class="clearfix" method="post">
+                    <!-- Left Inputs -->
+                    <div class="col-xs-12 col-sm-6 left">
+                        <!-- Name -->
+                        <span class="name-missing">Please enter your name</span>
+                        <input type="text" name="name" id="name" class="form light-form oswald light" placeholder="Họ và Tên" />
+                        <!-- Email -->
+                        <span class="email-missing">Please enter your E-mail</span>
+                        <input type="text" name="email" id="email" class="form light-form oswald light" placeholder="Ngày sinh" />
+                        <!-- Subject -->
+                        <span class="subject-missing">Please enter Subject</span>
+                        <input type="text" name="subject" id="subject" class="form light-form oswald light" placeholder="Mô tả" />
+                    </div>
+                    <!-- End Left Inputs -->
+                    <!-- Right Text Area -->
+                    <div class="col-xs-12 col-sm-6 right">
+                        <!-- Birth -->
+                        <span class="name-missing">Please enter your name</span>
+                        <input type="text" name="name" id="name" class="form light-form oswald light" placeholder="Email" />
+                        <!-- Email -->
+                        <span class="email-missing">Please enter your E-mail</span>
+                        <input type="text" name="email" id="email" class="form light-form oswald light" placeholder="Số điện thoại" />
+                        <!-- Subject -->
+                        <span class="subject-missing">Please enter Subject</span>
+                        <input type="text" name="subject" id="subject" class="form light-form oswald light" placeholder="Trình độ học vấn" />
+                    </div>
+                    <!-- End Right Text Area -->
+                    <!-- Send Button -->
+                    <div class="col-xs-12">
+                        <!-- Button -->
+                        <button type="submit" id="submit" name="submit" class="form contact-form-button light-form oswald light">GỬI ĐĂNG KÝ</button>
+                    </div>
+                    <!-- End Send Button -->
+                </form>
+                <!-- End Form -->
+                <!-- Your Mail Message -->
+                <div class="mail-message-area">
+                    <!-- Message -->
+                    <div class="alert light-form mail-message not-visible-message">
+                        <strong>Thank You !</strong> Your email has been delivered.
+                    </div>
+                </div>
+                <!-- End Mail Message -->
+            </div>
+            <!-- End Contact Form -->
+        </div>
+        <!-- End Inner -->
+    </section>
+    <!-- End Contact Section -->
