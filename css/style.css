@@ -713,7 +713,7 @@ ul.list-horizontal li i {
 }
 
 .nav-inner .logo a img {
-    max-height: 50px;
+    max-height: 36px;
 }
 
 
@@ -1293,6 +1293,10 @@ body.parallax .image-bg {
 }
 
 
+.white-nav {
+    background-color: #3150a1 !important;
+}
+
 
 /* Layer, Rev Slider */
 
@@ -1325,12 +1329,12 @@ body.parallax .image-bg {
 }
 
 .text-type5 {
-    color: #f3f3f3;
+    color: #1f1f1f;
     font-family: 'proxiblack';
 }
 
 .text-type6 {
-    color: #d1d1d1;
+    color: #1f1f1f;
     font-size: 22px;
     font-family: "proxilight";
 }
@@ -1489,15 +1493,16 @@ section.page-content .page-content-inner .cd-table tr>td {
   padding-right: 20px;
 }
 
-section.page-content .page-content-inner .cd-table .cd-secondline {
+section.page-content  .cd-secondline {
   font-size: 27px;
-  margin:-3px 0 0 0;
   color: #171717;
+  margin-top: 4px;
 }
 
-section.page-content .page-content-inner .cd-table .cd-firstline {
+section.page-content .cd-firstline {
     text-align: left;
     color: #171717;
+    margin:-12px 0 0 0;
   }
   
 
@@ -1604,9 +1609,21 @@ section.page_header .page_header_inner .p_head_right a.p-head-button {
 
 
 .ic_img {
-    width:35%;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 0.3s ease all;
 }
 
+
+#about .about-boxes .about-box:hover .ic_img {
+    width:80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+    align-self: center;
+}
 
 /* About Icon */
 
@@ -1618,7 +1635,7 @@ section.page_header .page_header_inner .p_head_right a.p-head-button {
     margin: 0 auto;
     border-radius: 500px;
     border: 1px solid #8b8b8b;
-    color: #444444;
+    color: #fff;
     font-size: 28px;
     line-height: 124px;
     position: relative;
@@ -1667,12 +1684,27 @@ section.page_header .page_header_inner .p_head_right a.p-head-button {
 /* About Box Rollover */
 
 #about .about-boxes .about-box:hover a.about-icon {
-    background: #21242a;
+    background: #fff;
     color: white;
 }
 
+#about .about-boxes .about-box:hover a.about-icon-2 {
+    background: #fff;
+    color: white;
+
+}
+
+
 #about .about-boxes .about-box:hover a.about-icon:after {
-    border: 1px solid #21242a;
+    border: 1px solid #f89a4d;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#about .about-boxes .about-box:hover a.about-icon-2:after {
+    border: 1px solid #3150a1;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -ms-transform: scale(1.1);
@@ -1698,6 +1730,115 @@ body.parallax #what-we-do {
     z-index: 1;
 }
 
+
+.p-40 {
+    padding: 40px
+}
+
+
+.d-flex {
+    display: flex !important;
+}
+
+.soft-bg-icons {
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 6px    12px;
+    border-radius: 4px;
+    background-color: #f89a4d !important;
+    font-weight: bold;
+}
+
+.soft-bg-icons span {
+    color: #000 !important;
+}
+
+
+#w-options {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.soft-bg-icons:hover, #w-filters .selected {
+    background-color: #fff !important;
+}
+
+.soft-bg-icons span {
+    white-space: nowrap;
+}
+
+.nav .header-li {
+    color: #fff !important;
+}
+
+.nav  .contact-nav{
+
+    background-color: #f89a4d!important;
+}
+
+.nav  .contact-nav a {
+    color: #000 !important;
+}
+
+.nav-menu ul li a:hover {
+    color: #3150a1 !important ;
+}
+
+@media only screen and (max-width: 1185px) {
+    #w-options {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .what-we-do .mini-header  {
+        text-align: center;
+    }
+
+    .nav .scroll {
+        color: #000;
+    }
+
+    .nav  .contact-nav {
+        color: #fff;
+        background-color: #f89a4d;
+    }
+
+    .cd-firstline {
+        text-align: center !important;
+    }
+
+    section.page-content .page-content-inner .content-left {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    section.page-content .page-content-inner .content-left, section.page-content .page-content-inner .content-right {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        float: none;
+}
+}
+
+
+@media  only screen and (max-width: 1024px) {
+    section.page-content .page-content-inner .content-left {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    section.page-content .page-content-inner .content-left, section.page-content .page-content-inner .content-right {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        float: none;
+}
+}
 
 
 /* What We Do Filters */

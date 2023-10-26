@@ -84,16 +84,6 @@
 
 @media only screen and (max-width: 1024px) {
 
-    /* Page Content */
-    section.page-content .page-content-inner .content-left {
-        padding-right: 10px;
-        max-width: 55%;
-    }
-
-    section.page-content .page-content-inner .content-right {
-        margin-top: 10px;
-    }
-
     /* Home Texts V2 */
     .home-inner.v2 .text-slider .home-texts .slide {
         font-size: 40px;

@@ -17,7 +17,7 @@
 /* Background for 75% Dark */
 
 	.soft-bg:before{
-		background-color:rgba(34,34,34, 0.75);
+		background-color:rgba(0, 78, 180, 0.75);
 		position: absolute;
 		left:0;
 		top: 0;
