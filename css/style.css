@@ -1767,9 +1767,6 @@ body.parallax #what-we-do {
     white-space: nowrap;
 }
 
-.nav .header-li {
-    color: #fff !important;
-}
 
 .nav  .contact-nav{
 
@@ -1784,7 +1781,21 @@ body.parallax #what-we-do {
     color: #3150a1 !important ;
 }
 
-@media only screen and (max-width: 1185px) {
+.nav .header-li {
+    color: #fff !important;
+}
+
+
+.white-nav .nav-menu ul.dropdown-menu li.active a {
+    color: #3150a1 !important;
+}
+
+@media only screen and (max-width: 1000px) {
+
+ .nav .header-li {
+    color: #3150a1 !important;
+}
+
     #w-options {
         display: flex;
         align-items: center;
@@ -5694,3 +5705,24 @@ padding: 6px
 .timeline .note:hover  h4 {
     color: #d46f1c;
 }
+
+.fab-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10050 !important;
+  }
+
+  .fab {
+    background-color: #007bff;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+
+  }
