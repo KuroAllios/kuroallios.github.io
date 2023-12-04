@@ -129,13 +129,6 @@ a:focus {
 
 /* Containers */
 
-.container {
-    width: auto;
-    height: auto;
-    padding: 0;
-    margin: 0;
-}
-
 .inner {
     width: 100%;
     height: auto;
@@ -5726,3 +5719,143 @@ padding: 6px
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 
   }
+
+  .hero-img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+  }
+
+  .show {
+    opacity: 1;
+  }
+
+
+  .hero-section {
+    background-image: url(../images/slider/slidebg.jpg);
+    background-size: cover;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    min-height: 300px;
+  } 
+
+
+  .hero-title {
+    width: 100%;
+  }
+
+    
+  .hero-title h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .dropdown-toggle::after {
+    display: none;
+  }
+
+  .tp-banner-container h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 20px;
+ }
+ 
+ button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+ .tp-banner-container .text-type6 {
+    margin-top: 20px;
+    font-size: 30px !important;
+ }
+
+ .img-left-float {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.img-right-float {
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+
+.main-tabs {
+    background-color: #3150a1 ;
+    border-bottom: none;
+    width: 100%;
+    overflow: hidden;
+    flex-wrap: nowrap;
+  }
+
+  @media  only screen and (max-width: 720px) {
+
+ .main-tabs {
+    overflow-x: scroll;
+    box-shadow: 5px 0 5px -2px rgba(0, 0, 0, 0.5);
+}     
+
+    .img-left-float {
+        padding-right: 0px;
+    }
+
+    .img-right-float {
+        padding-left: 0px;
+    }
+
+    .hero-section {
+        min-height: 200px;
+      } 
+
+    .bigger {
+        font-size: 24px;
+    }
+
+    .tp-banner-container h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+     }
+     .tp-banner-container .text-type6 {
+        margin-top: 20px;
+        font-size: 1em !important;
+     }
+  }
+
+
+  .main-tabs .nav-link {
+    color: #fff;
+border: none;
+    transition: 0.3s ease all;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    height: 64px !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    width: 100%;
+    white-space: nowrap;
+    padding: 0 16px
+  }
+
+  .main-tabs .nav-link:hover {
+    background-color: #284386
+  }
+
+  .main-tabs .nav-link.active {
+    background-color: #f89a4d;
+    color: #000
+  }
+
+  
+.tab-section .tab-content {
+    margin-top: 36px;
+}
