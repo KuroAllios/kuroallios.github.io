@@ -1974,7 +1974,6 @@ ul#w-filters li a span {
 }
 
 .w-second-area .w-left ul.w-descs li {
-    list-style-image: ;
     list-style-position: inside;
     margin: 6px auto;
 }
@@ -2674,17 +2673,6 @@ body.parallax #features .features-background {
 
 
 /* Features Boxes */
-
-#features ul.features-mobile {
-    width: 100%;
-    height: auto;
-    min-height: 476px;
-    margin: 60px auto 0;
-    background-image: url(../images/features-iphone.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    padding-top: 90px;
-}
 
 #features ul.features-mobile li.feature-box {
     max-width: 400px;
@@ -5707,6 +5695,7 @@ padding: 6px
   }
 
   .fab {
+
     background-color: #007bff;
     color: #fff;
     width: 60px;
@@ -5714,10 +5703,27 @@ padding: 6px
     border-radius: 50%;
     text-align: center;
     font-size: 24px;
-    line-height: 60px;
     cursor: pointer;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  }
 
+  .fab-2 {
+
+    background-color: #d46f1c;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+ display: flex;
+ align-items: center;
+ justify-content: center;
   }
 
   .hero-img {
@@ -5794,16 +5800,19 @@ padding: 6px
     background-color: #3150a1 ;
     border-bottom: none;
     width: 100%;
-    overflow: hidden;
-    flex-wrap: nowrap;
   }
 
   @media  only screen and (max-width: 720px) {
 
  .main-tabs {
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
     box-shadow: 5px 0 5px -2px rgba(0, 0, 0, 0.5);
+
+    
 }     
+.main-tabs li {
+    border-bottom: 2px solid #fff !important;
+}
 
     .img-left-float {
         padding-right: 0px;
@@ -5836,13 +5845,10 @@ padding: 6px
     color: #fff;
 border: none;
     transition: 0.3s ease all;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
     height: 64px !important;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     width: 100%;
-    white-space: nowrap;
     padding: 0 16px
   }
 
@@ -5856,6 +5862,110 @@ border: none;
   }
 
   
-.tab-section .tab-content {
+/* .tab-section .tab-content {
     margin-top: 36px;
+} */
+
+.tab-content.container {
+    max-width: 800px;
+}
+
+.mw-full {
+    max-width: 100%;
+}
+
+
+.button-black-primary {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px 4px 0 0;
+    background-color: #191919;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button-black-primary:hover {
+    background-color: #284386;
+    color: #ffff;
+}
+
+.button-main-primary {
+    display: inline-block;
+    padding: 12px 16px;
+    width: 260px;
+    margin: 10px 4px 0 0;
+    background-color: #284386;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #fff;
+    margin-top: 16px;
+    border-radius: 999px;
+}
+
+
+.button-main-primary:hover {
+    background-color: #192b58;
+    color: #ffff;
+}
+
+.bg-brand {
+    background-color: #3150a1 !important
+}
+
+.text-brand {
+    color: #3150a1 !important
+}
+
+/* .bottom-section-caption .button-main-primary {
+    font-size: 2rem;
+} */
+
+.brand-img-header {
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.what-we-do {
+    padding-top: 10rem;
+}
+
+.founder-img {
+    width: 100%;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.brand-secondary {
+    color: #f89a4d;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.panel-body img {
+    max-width: 100%;
+}
+
+.half-page-img {
+    max-width: 100%;
+}
+
+.brand-wrap {
+    background-color: #3e3e3e;
+}
+
+.fab img, .fab-2 img {
+    max-width: 40px;
 }

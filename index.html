@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
+  <head>
     <meta charset="utf-8" />
     <title>Cavitec Website</title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
     <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
@@ -22,607 +25,955 @@
     <link rel="stylesheet" href="css/responsive.css" />
     <link id="changeable_tone" rel="stylesheet" href="css/dark.css" />
     <link id="changeable_color" rel="stylesheet" href="css/colors/brand.css" />
-</head>
-<body class="parallax">
+  </head>
+  <body class="parallax">
     <section id="pageloader" class="white-bg">
-        <div class="outter dark-border">
-            <div class="mid dark-border"></div>
-        </div>
+      <div class="outter dark-border">
+        <div class="mid dark-border"></div>
+      </div>
     </section>
     <nav id="navigation-sticky" class="white-nav b-shadow">
-        <div class="nav-inner">
-            <div class="logo">
-                <a href="#home" class="scroll">
-                    <img src="images/brand/LOGO-03.png"/>
-                </a>
-            </div>
-            <a class="mobile-nav-button colored"><i class="fa fa-bars"></i></a>
-            <div class="nav-menu clearfix semibold">
-                <ul class="nav uppercase bold">
-                    <li><a href="#home" class="header-li scroll">Trang chủ</a></li>
-                    <li class="dropdown-toggle nav-toggle"><a class="header-li scroll">Sản phẩm<b data-toggle="dropdown"></b></a>
-                        <ul class="dropdown-menu uppercase gray-border clearfix">
-                            <li><a href="suat-an-cong-nghiep.html" class="scroll">Suất ăn công nghiệp</a></li>
-                            <li><a href="#portfolio" class="scroll">Bảng biển ATGT</a></li>
-                            <li><a href="#portfolio" class="scroll">Tấm gỗ pallete</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown-toggle nav-toggle">
-                        <a class="header-li scroll">Về chúng tôi<b data-toggle="dropdown"></b></a>
-                        <ul class="dropdown-menu uppercase gray-border clearfix">
-                            <li><a href="#what-we-do" class="scroll">Suất ăn công nghiệp</a></li>
-                            <li><a href="#portfolio" class="scroll">Bảng biển ATGT</a></li>
-                            <li><a href="#portfolio" class="scroll">Tấm gỗ pallete</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#history" class="header-li scroll">Lịch sử</a></li>
-                    <li><a href="#clients" class="header-li scroll">Kinh nghiệm</a></li>
-                    <li><a href="#features" class="header-li scroll">Đánh giá</a></li>
-                    <li class="contact-nav"><a href="#contact" class="scroll" style="padding: 10px 30px; margin:auto;">Liên hệ</a></li>
-                </ul>
-            </div>
+      <div class="nav-inner">
+        <div class="logo">
+          <a href="/" class="scroll">
+            <img src="images/brand/LOGO-03.png" />
+          </a>
         </div>
+        <a class="mobile-nav-button colored"><i class="fa fa-bars"></i></a>
+        <div class="nav-menu clearfix semibold">
+          <ul class="nav uppercase bold">
+            <li><a href="/" class="header-li scroll">Trang chủ</a></li>
+            <li class="dropdown-toggle nav-toggle">
+              <a class="header-li scroll"
+                >Sản phẩm<b data-toggle="dropdown"></b
+              ></a>
+              <ul class="dropdown-menu uppercase gray-border clearfix">
+                <li>
+                  <a href="suat-an-cong-nghiep.html" class="scroll"
+                    >Suất ăn công nghiệp</a
+                  >
+                </li>
+                <li><a href="#portfolio" class="scroll">Bảng biển ATGT</a></li>
+                <li><a href="#portfolio" class="scroll">Tấm gỗ pallete</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-toggle nav-toggle">
+              <a class="header-li scroll"
+                >Về chúng tôi<b data-toggle="dropdown"></b
+              ></a>
+              <ul class="dropdown-menu uppercase gray-border clearfix">
+                <li>
+                  <a href="#what-we-do" class="scroll">Suất ăn công nghiệp</a>
+                </li>
+                <li><a href="#portfolio" class="scroll">Bảng biển ATGT</a></li>
+                <li><a href="#portfolio" class="scroll">Tấm gỗ pallete</a></li>
+              </ul>
+            </li>
+            <li><a href="#history" class="header-li scroll">Lịch sử</a></li>
+            <li><a href="#clients" class="header-li scroll">Kinh nghiệm</a></li>
+            <li><a href="#features" class="header-li scroll">Đánh giá</a></li>
+            <li class="contact-nav">
+              <a
+                href="lien-he.html"
+                class="scroll"
+                style="padding: 10px 30px; margin: auto"
+                >Liên hệ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <section id="home" class="container-fluid relative">
-        <div id="full-slider-wrapper">
-            <div class="tp-banner-container">
-                <div class="tp-banner">
-                    <ul>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
-                            <img src="images/slider/slidebg.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-                            <div class="tp-caption customin customout text-type5 bigger t-center uppercase semibold" data-x="center" data-y="center" data-voffset="-50" data-customin="x:0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="1600" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 2;    font-family: " proxima nova ", sans-serif;font-weight: 900;">
-                                <h1>SUẤT ĂN CÔNG NGHIỆP</h1>
-                            </div>
-                            <div class="tp-caption customin customout text-type6 bigger t-center" data-x="center" data-y="center" data-voffset="0" data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="1600" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 2">
-                                <span class="gray-tone">Thơm ngon</span>  Bổ dưỡng <span class="gray-tone">An toàn</span>
-                            </div>
-                        </li>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
-                            <img src="images/slider/slidebg1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-                            <div class="tp-caption customin customout text-type5 bigger t-center uppercase semibold" data-x="center" data-y="center" data-voffset="-50" data-customin="x:0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="1600" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 2">
-                                <h1>AN TOÀN GIAO THÔNG</h1>
-                            </div>
-                            <div class="tp-caption customin customout text-type6 bigger t-center" data-x="center" data-y="center" data-voffset="0" data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="1600" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 2">
-                                <span class="gray-tone">BỀN BỈ</span>  - CHẤT LƯỢNG - <span class="gray-tone">AN TOÀN</span>
-                            </div>
-                        </li>
-                        <li data-transition="fade" data-slotamount="7" data-masterspeed="1000">
-                                               <img src="images/slider/slidebg2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
-                                               <div class="tp-caption customin customout text-type5 bigger t-center uppercase semibold" data-x="center" data-y="center" data-voffset="-50" data-customin="x:0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="1600" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 2">
-                                                   <h1>TẤM PALETTE</h1>
-                                               </div>
-                                               <div class="tp-caption customin customout text-type6 bigger t-center" data-x="center" data-y="center" data-voffset="0" data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;" data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" data-speed="500" data-start="1600" data-easing="Power4.easeOut" data-endspeed="500" data-endeasing="Power4.easeIn" data-captionhidden="on" style="z-index: 2">
-                                                   <span class="gray-tone">Thêm chữ </span> Thêm chữ <span class="gray-tone"> Thêm chữ</span>
-                                               </div>
-                        </li>
-                    </ul>
-                    <div class="tp-bannertimer"></div>
+      <div id="full-slider-wrapper">
+        <div class="tp-banner-container">
+          <div class="tp-banner">
+            <ul>
+              <li
+                data-transition="fade"
+                data-slotamount="7"
+                data-masterspeed="1000"
+              >
+                <img
+                  src="images/slider/slidebg.jpg"
+                  alt="slidebg1"
+                  data-bgfit="cover"
+                  data-bgposition="center top"
+                  data-bgrepeat="no-repeat"
+                />
+                <div
+                  class="tp-caption customin customout text-type5 bigger t-center uppercase semibold"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="-50"
+                  data-customin="x:0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="500"
+                  data-start="1600"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="500"
+                  data-endeasing="Power4.easeIn"
+                  data-captionhidden="on"
+                  style="z-index: 2"
+                >
+                  <h1>SUẤT ĂN CÔNG NGHIỆP</h1>
                 </div>
-            </div>
+                <div
+                  class="tp-caption customin customout text-type6 bigger t-center bottom-section-caption"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="0"
+                  data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="500"
+                  data-start="1600"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="500"
+                  data-endeasing="Power4.easeIn"
+                  data-captionhidden="on"
+                  style="z-index: 2"
+                >
+                  <div>
+                    <span class="gray-tone">Thơm ngon</span> Bổ dưỡng
+                    <span class="gray-tone">An toàn</span>
+                  </div>
+                  <a href="#contact" class="button-main-primary">
+                    Tìm hiểu thêm
+                  </a>
+                </div>
+              </li>
+              <li
+                data-transition="fade"
+                data-slotamount="7"
+                data-masterspeed="1000"
+              >
+                <img
+                  src="images/slider/slidebg1.jpg"
+                  alt="slidebg1"
+                  data-bgfit="cover"
+                  data-bgposition="center top"
+                  data-bgrepeat="no-repeat"
+                />
+                <div
+                  class="tp-caption customin customout text-type5 bigger t-center uppercase semibold"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="-50"
+                  data-customin="x:0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="500"
+                  data-start="1600"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="500"
+                  data-endeasing="Power4.easeIn"
+                  data-captionhidden="on"
+                  style="z-index: 2"
+                >
+                  <h1>AN TOÀN GIAO THÔNG</h1>
+                </div>
+                <div
+                  class="tp-caption customin customout text-type6 bigger t-center bottom-section-caption"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="0"
+                  data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="500"
+                  data-start="1600"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="500"
+                  data-endeasing="Power4.easeIn"
+                  data-captionhidden="on"
+                  style="z-index: 2"
+                >
+                  <div>
+                    <span class="gray-tone">BỀN BỈ</span> - CHẤT LƯỢNG -
+                    <span class="gray-tone">AN TOÀN</span>
+                  </div>
+
+                  <a href="#contact" class="button-main-primary">
+                    Tìm hiểu thêm
+                  </a>
+                </div>
+              </li>
+              <li
+                data-transition="fade"
+                data-slotamount="7"
+                data-masterspeed="1000"
+              >
+                <img
+                  src="images/slider/slidebg2.jpg"
+                  alt="slidebg1"
+                  data-bgfit="cover"
+                  data-bgposition="center top"
+                  data-bgrepeat="no-repeat"
+                />
+                <div
+                  class="tp-caption customin customout text-type5 bigger t-center uppercase semibold"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="-50"
+                  data-customin="x:0;y:-100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="500"
+                  data-start="1600"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="500"
+                  data-endeasing="Power4.easeIn"
+                  data-captionhidden="on"
+                  style="z-index: 2"
+                >
+                  <h1>TẤM PALETTE</h1>
+                </div>
+                <div
+                  class="tp-caption customin customout text-type6 bigger t-center bottom-section-caption"
+                  data-x="center"
+                  data-y="center"
+                  data-voffset="0"
+                  data-customin="x:0;y:100;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:1;scaleY:1;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:0% 0%;"
+                  data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                  data-speed="500"
+                  data-start="1600"
+                  data-easing="Power4.easeOut"
+                  data-endspeed="500"
+                  data-endeasing="Power4.easeIn"
+                  data-captionhidden="on"
+                  style="z-index: 2"
+                >
+                  <div>
+                    <span class="gray-tone">BỀN BỈ</span> - CHẤT LƯỢNG -
+                    <span class="gray-tone">AN TOÀN</span>
+                  </div>
+
+                  <a href="#contact" class="button-main-primary">
+                    Tìm hiểu thêm
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <div class="tp-bannertimer"></div>
+          </div>
         </div>
+      </div>
     </section>
     <section class="page-content">
-        <div class="page-content-inner clearfix">
-            <div class="content-left white" style="margin:-5px 0 -10px 0">
-                            <p class="cd-secondline"><strong>Cavitec Joint Stock Company</strong></p>
-                            <p class="cd-firstline">P1002, tầng 10, Tòa nhà Viglacera, Phường Mễ Trì, Quận Nam Từ Liêm, Thành phố Hà Nội, Xã Mễ Trì, Vietnam</p>
-            </div>
-            `
-            <div class="content-right white">
-                <a href="#contact" class="page-content-button bold uppercase white scroll">
-                    Đăng ký ngay
-                </a>
-                <a href="#about" class="page-content-button bold uppercase white scroll">
-                    Tìm hiểu thêm
-                </a>
-            </div>
+      <div class="page-content-inner clearfix">
+        <div class="content-left white" style="margin: -5px 0 -10px 0">
+          <p class="cd-secondline">
+            <strong>Cavitec Joint Stock Company</strong>
+          </p>
+          <p class="cd-firstline">
+            P1002, tầng 10, Tòa nhà Viglacera, Phường Mễ Trì, Quận Nam Từ Liêm,
+            Thành phố Hà Nội, Xã Mễ Trì, Vietnam
+          </p>
         </div>
+        `
+        <div class="content-right white">
+          <a
+            href="#contact"
+            class="page-content-button bold uppercase white scroll"
+          >
+            Tìm hiểu thêm
+          </a>
+          <a
+            href="#about"
+            class="page-content-button bold uppercase white scroll"
+          >
+            Tìm hiểu thêm
+          </a>
+        </div>
+      </div>
     </section>
     <section id="about" class="container-fluid">
-        <div class="inner about">
-            <div class="about-boxes clearfix t-center no-title">
-                <div class="col-xs-12 col-sm-6 col-md-4 about-box animated" data-animation="fadeIn" data-animation-delay="300">
-                    <a class="about-icon">
-                        <img class="ic_img" src="images/about-icon-1.jpg">
-                    </a>
-                    <h3 class="uppercase normal bold">
-                       <strong>Suất ăn công nghiệp</strong>
-                    </h3>
-                    <p class="normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla tortor, mattis in nisl non, vulputate ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur augue.
-                    </p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 about-box animated" data-animation="fadeIn" data-animation-delay="500">
-                    <a class="about-icon about-icon-2">
-                        <img class="ic_img" src="images/about-icon-2.jpg">
-                    </a>
-                    <h3 class="uppercase normal bold">
-                       <strong>AN TOÀN GIAO THÔNG</strong>
-                    </h3>
-                    <p class="normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla tortor, mattis in nisl non, vulputate ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur augue. 
-                    </p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 about-box animated" data-animation="fadeIn" data-animation-delay="700">
-                                                                                                                                                                                                              <a class="about-icon">
-                        <img class="ic_img" src="images/about-icon-3.jpg">
-                    </a>
-                    <h3 class="uppercase normal bold">
-                        <strong>Tấm gỗ Pallette</strong>
-                    </h3>
-                    <p class="normal">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla tortor, mattis in nisl non, vulputate ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur augue. 
-                    </p>
-                </div>
-            </div>
+      <div class="inner about">
+        <div class="about-boxes clearfix t-center no-title">
+          <div
+            class="col-xs-12 col-sm-6 col-md-4 about-box animated"
+            data-animation="fadeIn"
+            data-animation-delay="300"
+          >
+            <a class="about-icon">
+              <img class="ic_img" src="images/about-icon-1.jpg" />
+            </a>
+            <h3 class="uppercase normal bold">
+              <strong>Suất ăn công nghiệp</strong>
+            </h3>
+            <p class="normal">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque nulla tortor, mattis in nisl non, vulputate ornare
+              orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur
+              augue.
+            </p>
+            <a href="#contact" class="button-black-primary"> Tìm hiểu thêm </a>
+          </div>
+          <div
+            class="col-xs-12 col-sm-6 col-md-4 about-box animated"
+            data-animation="fadeIn"
+            data-animation-delay="500"
+          >
+            <a class="about-icon about-icon-2">
+              <img class="ic_img" src="images/about-icon-2.jpg" />
+            </a>
+            <h3 class="uppercase normal bold">
+              <strong>AN TOÀN GIAO THÔNG</strong>
+            </h3>
+            <p class="normal">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque nulla tortor, mattis in nisl non, vulputate ornare
+              orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur
+              augue.
+            </p>
+            <a href="#contact" class="button-black-primary"> Tìm hiểu thêm </a>
+          </div>
+          <div
+            class="col-xs-12 col-sm-6 col-md-4 about-box animated"
+            data-animation="fadeIn"
+            data-animation-delay="700"
+          >
+            <a class="about-icon">
+              <img class="ic_img" src="images/about-icon-3.jpg" />
+            </a>
+            <h3 class="uppercase normal bold">
+              <strong>Tấm gỗ Pallette</strong>
+            </h3>
+            <p class="normal">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque nulla tortor, mattis in nisl non, vulputate ornare
+              orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur
+              augue.
+            </p>
+            <a href="#contact" class="button-black-primary"> Tìm hiểu thêm </a>
+          </div>
         </div>
+      </div>
     </section>
     <section id="what-we-do" class="container-fluid soft-bg parallax1">
-        <div class="inner what-we-do">
-            <div class="row align-items-center p-40">
-                <div class="col-12 col-lg-6 w-left t-left no-padding animated" data-animation="fadeInLeft" data-animation-delay="0">
-                    <h1 class="mini-header uppercase bold white normal no-margin">
-                            Về chúng tôi
-                        </h1>
-                    <div id="w-options" class="filter-menu fullwidth">
-                        <div id="w-filters" class="w-option-set d-flex " data-option-key="filter">
-                            <div class="animated" data-animation="flipInY" data-animation-delay="100">
-                                <a class="soft-bg-icons selected" href="#filter" data-option-value=".2014"><span style="text-align:center">Nhà sáng lập</span></a>
-                            </div>
-                            <div class="animated" data-animation="flipInY" data-animation-delay="300">
-                                <a class="soft-bg-icons" href="#filter" data-option-value=".2015"><span style="text-align:center">Mục tiêu</span></a>
-                            </div>
-                            <div class="animated" data-animation="flipInY" data-animation-delay="500">
-                                <a class="soft-bg-icons" href="#filter" data-option-value=".now"><span style="text-align:center">Kinh nghiệm</span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="w-items t-left">
-                        <div class="w-item white 2014">
-                            <h1 class="bold uppercase">
-                           Ông Ngô Văn Hóa
-                        </h1>
-                            <p class="normal">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla tortor, mattis in nisl non, vulputate ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur augue. Nam sem justo, rutrum in congue ac, molestie ut felis. Praesent sit amet aliquam mauris. Nunc vitae nunc at nibh euismod sagittis. Aliquam volutpat nibh in nisi finibus rhoncus. Nullam ut enim a tortor sagittis placerat. Aenean blandit ante vel diam faucibus tristique. Nam turpis mauris, vulputate a lobortis et, ullamcorper vel orci. Suspendisse potenti. Nullam lobortis vehicula efficitur. Aliquam blandit felis lorem. Aenean diam est, iaculis ac ullamcorper nec, malesuada feugiat felis.
-                            </p>
-                        </div>
-                        <div class="w-item white 2015">
-                            <h1 class="bold uppercase">
-                               Hơn 20 năm trong ngành
-                        </h1>
-                            <p class="normal">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla tortor, mattis in nisl non, vulputate ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur augue. Nam sem justo, rutrum in congue ac, molestie ut felis. Praesent sit amet aliquam mauris. Nunc vitae nunc at nibh euismod sagittis. Aliquam volutpat nibh in nisi finibus rhoncus. Nullam ut enim a tortor sagittis placerat. Aenean blandit ante vel diam faucibus tristique. Nam turpis mauris, vulputate a lobortis et, ullamcorper vel orci. Suspendisse potenti. Nullam lobortis vehicula efficitur. Aliquam blandit felis lorem. Aenean diam est, iaculis ac ullamcorper nec, malesuada feugiat felis.
-                            </p>
-                        </div>
-                        <div class="w-item white now">
-                            <h1 class="bold uppercase">
-                            Kết quả
-                        </h1>
-                            <p class="normal">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla tortor, mattis in nisl non, vulputate ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur augue. Nam sem justo, rutrum in congue ac, molestie ut felis. Praesent sit amet aliquam mauris. Nunc vitae nunc at nibh euismod sagittis. Aliquam volutpat nibh in nisi finibus rhoncus. Nullam ut enim a tortor sagittis placerat. Aenean blandit ante vel diam faucibus tristique. Nam turpis mauris, vulputate a lobortis et, ullamcorper vel orci. Suspendisse potenti. Nullam lobortis vehicula efficitur. Aliquam blandit felis lorem. Aenean diam est, iaculis ac ullamcorper nec, malesuada feugiat felis.
-                            </p>
-                        </div>
-                    </div>
-                    <p class="white normal" style="margin-top:24px">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nulla tortor, mattis in nisl non, vulputate ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae consectetur augue. Nam sem justo, rutrum in congue ac, molestie ut felis. Praesent sit amet aliquam mauris. Nunc vitae nunc at nibh euismod sagittis. Aliquam volutpat nibh in nisi finibus rhoncus. Nullam ut enim a tortor sagittis placerat. Aenean blandit ante vel diam faucibus tristique. Nam turpis mauris, vulputate a lobortis et, ullamcorper vel orci. Suspendisse potenti. Nullam lobortis vehicula efficitur. Aliquam blandit felis lorem. Aenean diam est, iaculis ac ullamcorper nec, malesuada feugiat felis.
-                    </p>
-                    <a href="#" target="_blank" class="uppercase normal bold white darkgrey button">
-                            Xem thêm
-                        </a>
+      <div class="what-we-do">
+        <div class="d-flex-pc row align-items-center justify-content-center">
+          <div
+            class="col-12 col-lg-4 w-left t-left no-padding animated"
+            data-animation="fadeInLeft"
+            data-animation-delay="0"
+            style="margin-left: 32px; margin-right: 32px"
+          >
+            <h1 class="mini-header uppercase bold white normal no-margin">
+              Về chúng tôi
+            </h1>
+            <p class="fs-16 white normal" style="margin-top: 24px">
+              <strong>Cavitec</strong>, thành lập từ năm 2009, là đối tác tin
+              cậy trong lĩnh vực cung cấp suất ăn công nghiệp, nay đã mở rộng
+              sang nhiều lĩnh vực như an toàn giao thông và tấm gỗ pallet. Với
+              15 năm kinh nghiệm, chúng tôi cam kết đem đến những sản phẩm chất
+              lượng, đa dạng và an toàn cho khách hàng.
+            </p>
+            <div id="w-options" class="filter-menu fullwidth">
+              <div
+                id="w-filters"
+                class="w-option-set d-flex"
+                data-option-key="filter"
+              >
+                <div
+                  class="animated"
+                  data-animation="flipInY"
+                  data-animation-delay="100"
+                >
+                  <a
+                    class="soft-bg-icons selected"
+                    href="#filter"
+                    data-option-value=".2014"
+                    ><span style="text-align: center">Nhà sáng lập</span></a
+                  >
                 </div>
-                <div class="col-12 col-lg-6 w-right t-right no-padding animated" data-animation="fadeInRight" data-animation-delay="0">
-                    <a href="http://www.youtube.com/watch?v=mSLAF_DjiDU" data-rel="prettyPhoto[portfolio]" class="work-image">
-                        <img src="images/s4img.png" alt=""  />
-                    </a>
+                <div
+                  class="animated"
+                  data-animation="flipInY"
+                  data-animation-delay="300"
+                >
+                  <a
+                    class="soft-bg-icons"
+                    href="#filter"
+                    data-option-value=".2015"
+                    ><span style="text-align: center">Mục tiêu</span></a
+                  >
                 </div>
+                <div
+                  class="animated"
+                  data-animation="flipInY"
+                  data-animation-delay="500"
+                >
+                  <a
+                    class="soft-bg-icons"
+                    href="#filter"
+                    data-option-value=".now"
+                    ><span style="text-align: center">Kinh nghiệm</span></a
+                  >
+                </div>
+              </div>
             </div>
+            <div class="w-items t-left" style="margin-bottom: 32px">
+              <div class="w-item white 2014">
+                <h1 class="bold uppercase">Ông Ngô Văn Hóa</h1>
+                <p class="normal">
+                  Ông Ngô Văn Hóa, Chủ tịch của Cavitec, là một nhà lãnh đạo tận
+                  tâm và sáng tạo, với hơn 20 năm kinh nghiệm trong ngành công
+                  nghiệp suất ăn. Ông định hình tầm nhìn của công ty bằng sự cam
+                  kết vững chắc về chất lượng và sự đổi mới, giúp Cavitec không
+                  ngừng phát triển và là đối tác tin cậy cho khách hàng và đội
+                  ngũ nhân viên. Ông Ngô Văn Hóa không chỉ là người đứng đầu mà
+                  còn là nguồn động viên lớn cho sự thành công và sự phát triển
+                  bền vững của công ty.
+                </p>
+              </div>
+              <div class="w-item white 2015">
+                <h1 class="bold uppercase">Hơn 20 năm trong ngành</h1>
+                <p class="normal">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque nulla tortor, mattis in nisl non, vulputate
+                  ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae
+                  consectetur augue. Nam sem justo, rutrum in congue ac,
+                  molestie ut felis. Praesent sit amet aliquam mauris. Nunc
+                  vitae nunc at nibh euismod sagittis. Aliquam volutpat nibh in
+                  nisi finibus rhoncus. Nullam ut enim a tortor sagittis
+                  placerat. Aenean blandit ante vel diam faucibus tristique. Nam
+                  turpis mauris, vulputate a lobortis et, ullamcorper vel orci.
+                  Suspendisse potenti. Nullam lobortis vehicula efficitur.
+                  Aliquam blandit felis lorem. Aenean diam est, iaculis ac
+                  ullamcorper nec, malesuada feugiat felis.
+                </p>
+              </div>
+              <div class="w-item white now">
+                <h1 class="bold uppercase">Kết quả</h1>
+                <p class="normal">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pellentesque nulla tortor, mattis in nisl non, vulputate
+                  ornare orci. Nulla imperdiet id tortor in auctor. Proin vitae
+                  consectetur augue. Nam sem justo, rutrum in congue ac,
+                  molestie ut felis. Praesent sit amet aliquam mauris. Nunc
+                  vitae nunc at nibh euismod sagittis. Aliquam volutpat nibh in
+                  nisi finibus rhoncus. Nullam ut enim a tortor sagittis
+                  placerat. Aenean blandit ante vel diam faucibus tristique. Nam
+                  turpis mauris, vulputate a lobortis et, ullamcorper vel orci.
+                  Suspendisse potenti. Nullam lobortis vehicula efficitur.
+                  Aliquam blandit felis lorem. Aenean diam est, iaculis ac
+                  ullamcorper nec, malesuada feugiat felis.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-3 w-right t-center no-padding animated"
+            data-animation="fadeInRight"
+            data-animation-delay="0"
+            style="align-self: flex-end"
+          >
+            <img src="images/founder.png" alt="" class="founder-img" />
+          </div>
         </div>
+      </div>
     </section>
     <section id="portfolio" class="container-fluid gray-bg">
-        <div class="portfolio boxed t-center relative">
-            <h1 class="mini-header uppercase dark bold" style="text-align:center; margin-bottom:30px">
-                            Một số hình ảnh 
-                        </h1>
-            <div id="options" class="filter-menu fullwidth">
-                <ul id="filters" class="option-set relative normal bold uppercase" data-option-key="filter">
-                    <li><a href="#filter" data-option-value="*" class="selected">tất cả</a></li>
-                    <li><a href="#filter" data-option-value=".cuocsong"><span>Tuyển dụng</span></a></li>
-                    <li><a href="#filter" data-option-value=".hoctap"><span>Hệ thống sản xuất</span></a></li>
-                    <li><a href="#filter" data-option-value=".lamviec"><span>môi trường làm việc</span></a></li>
-                    <li><a href="#filter" data-option-value=".dulich"><span>Teambuilding</span></a></li>
-                </ul>
-            </div>
-            <div class="portfolio-items t-center">
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 cuocsong">
-                    <div class="item-inner">
-                        <a href="images/portfolio/01.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/01.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Tuyển dụng
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 hoctap">
-                    <div class="item-inner">
-                        <a href="images/portfolio/02.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/02.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Hệ thống sản xuất
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 dulich">
-                    <div class="item-inner">
-                        <a href="images/portfolio/03.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/03.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Teambuilding
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 cuocsong dulich">
-                    <div class="item-inner">
-                        <a href="images/portfolio/04.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/04.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Teambuilding
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 hoctap">
-                    <div class="item-inner">
-                        <a href="images/portfolio/05.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/05.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Hệ thống sản xuất
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 lamviec">
-                    <div class="item-inner">
-                        <a href="images/portfolio/06.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/06.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Môi trường làm việc
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 cuocsong dulich">
-                    <div class="item-inner">
-                        <a href="images/portfolio/07.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/07.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Tuyển dụng
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 cuocsong dulich">
-                    <div class="item-inner">
-                        <a href="images/portfolio/08.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/08.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Teambuilding
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 hoctap lamviec">
-                    <div class="item-inner">
-                        <a href="images/portfolio/09.jpg" data-rel="prettyPhoto[portfolio]" class="work-image">
-                            <img src="images/portfolio/09.jpg" alt="" />
-                            <div class="item-details">
-                                <h1 class="bold uppercase white">
-                                    Title ảnh
-                                </h1>
-                                <span class="portfolio-strips"></span>
-                                <p class="bold uppercase">
-                                    Môi trường làm việc
-                                </p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
+      <div class="portfolio boxed t-center relative">
+        <h1
+          class="mini-header uppercase dark bold"
+          style="text-align: center; margin-bottom: 30px"
+        >
+          Một số hình ảnh
+        </h1>
+        <div id="options" class="filter-menu fullwidth">
+          <ul
+            id="filters"
+            class="option-set relative normal bold uppercase"
+            data-option-key="filter"
+          >
+            <li>
+              <a href="#filter" data-option-value="*" class="selected"
+                >tất cả</a
+              >
+            </li>
+            <li>
+              <a href="#filter" data-option-value=".cuocsong"
+                ><span>Tuyển dụng</span></a
+              >
+            </li>
+            <li>
+              <a href="#filter" data-option-value=".hoctap"
+                ><span>Hệ thống sản xuất</span></a
+              >
+            </li>
+            <li>
+              <a href="#filter" data-option-value=".lamviec"
+                ><span>môi trường làm việc</span></a
+              >
+            </li>
+            <li>
+              <a href="#filter" data-option-value=".dulich"
+                ><span>Teambuilding</span></a
+              >
+            </li>
+          </ul>
         </div>
+        <div class="portfolio-items t-center">
+          <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 cuocsong">
+            <div class="item-inner">
+              <a
+                href="images/portfolio/01.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/01.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Tuyển dụng</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 hoctap">
+            <div class="item-inner">
+              <a
+                href="images/portfolio/02.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/02.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Hệ thống sản xuất</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 dulich">
+            <div class="item-inner">
+              <a
+                href="images/portfolio/03.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/03.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Teambuilding</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="item boxed-item col-xs-12 col-sm-6 col-md-4 cuocsong dulich"
+          >
+            <div class="item-inner">
+              <a
+                href="images/portfolio/04.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/04.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Teambuilding</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 hoctap">
+            <div class="item-inner">
+              <a
+                href="images/portfolio/05.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/05.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Hệ thống sản xuất</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="item boxed-item col-xs-12 col-sm-6 col-md-4 lamviec">
+            <div class="item-inner">
+              <a
+                href="images/portfolio/06.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/06.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Môi trường làm việc</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="item boxed-item col-xs-12 col-sm-6 col-md-4 cuocsong dulich"
+          >
+            <div class="item-inner">
+              <a
+                href="images/portfolio/07.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/07.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Tuyển dụng</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="item boxed-item col-xs-12 col-sm-6 col-md-4 cuocsong dulich"
+          >
+            <div class="item-inner">
+              <a
+                href="images/portfolio/08.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/08.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Teambuilding</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div
+            class="item boxed-item col-xs-12 col-sm-6 col-md-4 hoctap lamviec"
+          >
+            <div class="item-inner">
+              <a
+                href="images/portfolio/09.jpg"
+                data-rel="prettyPhoto[portfolio]"
+                class="work-image"
+              >
+                <img src="images/portfolio/09.jpg" alt="" />
+                <div class="item-details">
+                  <h1 class="bold uppercase white">Title ảnh</h1>
+                  <span class="portfolio-strips"></span>
+                  <p class="bold uppercase">Môi trường làm việc</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="history" class="container-fluid">
-        <div class="history-background parallax2 soft-bg-1"></div>
-        <div class="inner history">
-            <h1 class="header uppercase white bold">
-                Lịch sử công ty
-            </h1>
-            <div class="header-strips-one"></div>
-            <ul class="timeline list-unstyled">
-                <li class="year" style="vertical-align: middle; padding: 14px">
-                    <div style="display: flex; align-items: center;justify-content: center;"><strong>1998</strong></div>
-                </li>
-                <li class="note animated" data-animation="fadeInRight" data-animation-delay="50">
-                    <h4>
-                               <strong>Thành lâp công ty</strong>
-                            </h4>
-                    <p class="desc">
-                        Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-                    </p>
-                    <span class="date">
-                                09/1998
-                            </span>
-                    <span class="arrow fa fa-play"></span>
-                </li>
-                <li class="note animated" data-animation="fadeInLeft" data-animation-delay="100">
-                    <h4>
-                        <strong>Thành lâp công ty</strong>
-                     </h4>
-             <p class="desc">
-                 Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-             </p>
-             <span class="date">
-                         09/1998
-                     </span>
-             <span class="arrow fa fa-play"></span>
-                </li>                
-                <li class="note animated" data-animation="fadeInRight" data-animation-delay="100">
-                    <h4>
-                        <strong>Thành lâp công ty</strong>
-                     </h4>
-             <p class="desc">
-                 Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-             </p>
-             <span class="date">
-                         09/1998
-                     </span>
-             <span class="arrow fa fa-play"></span>
-                </li>
-                <li class="note animated" data-animation="fadeInLeft" data-animation-delay="100">
-                    <h4>
-                        <strong>Thành lâp công ty</strong>
-                     </h4>
-             <p class="desc">
-                 Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-             </p>
-             <span class="date">
-                         09/1998
-                     </span>
-             <span class="arrow fa fa-play"></span>
-                </li>
-                <li class="year" style="vertical-align: middle; padding: 14px">
-                    <div style="display: flex; align-items: center;justify-content: center;"><strong>1998</strong></div>
-                </li>
-                <li class="note animated" data-animation="fadeInLeft" data-animation-delay="50">
-                    <h4>
-                               <strong>Thành lâp công ty</strong>
-                            </h4>
-                    <p class="desc">
-                        Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-                    </p>
-                    <span class="date">
-                                09/1998
-                            </span>
-                    <span class="arrow fa fa-play"></span>
-                </li>
-                <li class="note animated" data-animation="fadeInRight" data-animation-delay="100">
-                    <h4>
-                        <strong>Thành lâp công ty</strong>
-                     </h4>
-             <p class="desc">
-                 Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-             </p>
-             <span class="date">
-                         09/1998
-                     </span>
-             <span class="arrow fa fa-play"></span>
-                </li>                
-                <li class="note animated" data-animation="fadeInLeft" data-animation-delay="100">
-                    <h4>
-                        <strong>Thành lâp công ty</strong>
-                     </h4>
-             <p class="desc">
-                 Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-             </p>
-             <span class="date">
-                         09/1998
-                     </span>
-             <span class="arrow fa fa-play"></span>
-                </li>
-                <li class="note animated" data-animation="fadeInRight" data-animation-delay="100">
-                    <h4>
-                        <strong>Thành lâp công ty</strong>
-                     </h4>
-             <p class="desc">
-                 Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-             </p>
-             <span class="date">
-                         09/1998
-                     </span>
-             <span class="arrow fa fa-play"></span>
-                </li>
-                <li class="start fa fa-bookmark"></li>
-                <li class="clear"></li>
-            </ul>
+      <div class="history-background parallax2 soft-bg-1"></div>
+      <div class="inner history">
+        <div class="text-center">
+          <img src="images/brand/LOGO-03.png" class="brand-img-header" />
         </div>
+        <h1
+          class="header uppercase brand-secondary bold"
+          style="margin-top: 36px"
+        >
+          Lịch sử công ty
+        </h1>
+        <div class="header-strips-one"></div>
+        <ul class="timeline list-unstyled">
+          <li class="year" style="vertical-align: middle; padding: 14px">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <strong>1998</strong>
+            </div>
+          </li>
+          <li
+            class="note animated"
+            data-animation="fadeInRight"
+            data-animation-delay="50"
+          >
+            <h4>
+              <strong>Thành lâp công ty</strong>
+            </h4>
+            <p class="desc">Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ</p>
+            <span class="date"> 09/1998 </span>
+            <span class="arrow fa fa-play"></span>
+          </li>
+          <li
+            class="note animated"
+            data-animation="fadeInLeft"
+            data-animation-delay="100"
+          >
+            <h4>
+              <strong>Thành lâp công ty</strong>
+            </h4>
+            <p class="desc">Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ</p>
+            <span class="date"> 09/1998 </span>
+            <span class="arrow fa fa-play"></span>
+          </li>
+          <li
+            class="note animated"
+            data-animation="fadeInRight"
+            data-animation-delay="100"
+          >
+            <h4>
+              <strong>Thành lâp công ty</strong>
+            </h4>
+            <p class="desc">Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ</p>
+            <span class="date"> 09/1998 </span>
+            <span class="arrow fa fa-play"></span>
+          </li>
+          <li
+            class="note animated"
+            data-animation="fadeInLeft"
+            data-animation-delay="100"
+          >
+            <h4>
+              <strong>Thành lâp công ty</strong>
+            </h4>
+            <p class="desc">Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ</p>
+            <span class="date"> 09/1998 </span>
+            <span class="arrow fa fa-play"></span>
+          </li>
+          <li class="year" style="vertical-align: middle; padding: 14px">
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <strong>1998</strong>
+            </div>
+          </li>
+          <li
+            class="note animated"
+            data-animation="fadeInLeft"
+            data-animation-delay="50"
+          >
+            <h4>
+              <strong>Thành lâp công ty</strong>
+            </h4>
+            <p class="desc">Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ</p>
+            <span class="date"> 09/1998 </span>
+            <span class="arrow fa fa-play"></span>
+          </li>
+          <li
+            class="note animated"
+            data-animation="fadeInRight"
+            data-animation-delay="100"
+          >
+            <h4>
+              <strong>Thành lâp công ty</strong>
+            </h4>
+            <p class="desc">Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ</p>
+            <span class="date"> 09/1998 </span>
+            <span class="arrow fa fa-play"></span>
+          </li>
+          <li
+            class="note animated"
+            data-animation="fadeInLeft"
+            data-animation-delay="100"
+          >
+            <h4>
+              <strong>Thành lâp công ty</strong>
+            </h4>
+            <p class="desc">Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ</p>
+            <span class="date"> 09/1998 </span>
+            <span class="arrow fa fa-play"></span>
+          </li>
+          <li
+            class="note animated"
+            data-animation="fadeInRight"
+            data-animation-delay="100"
+          >
+            <h4>
+              <strong>Thành lâp công ty</strong>
+            </h4>
+            <p class="desc">Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ</p>
+            <span class="date"> 09/1998 </span>
+            <span class="arrow fa fa-play"></span>
+          </li>
+          <li class="start fa fa-bookmark"></li>
+          <li class="clear"></li>
+        </ul>
+      </div>
     </section>
     <section id="clients" class="container-fluid">
-        <div class="inner">
-            <h1 class="header uppercase dark bold">
-                Đối tác của CAVITEC
+      <div class="inner">
+        <h1 class="header uppercase dark bold">Đối tác của CAVITEC</h1>
+        <div class="header-strips-one"></div>
+        <div
+          class="clients t-center animated"
+          data-animation="fadeIn"
+          data-animation-delay="400"
+        >
+          <div class="item">
+            <a class="client-image">
+              <img src="images/clients/1.jpg" class="round" alt="Client" />
+            </a>
+            <h1 class="client-name uppercase bold">
+              <span style="font-size: 1.75rem">Ông</span> Nguyễn văn a
             </h1>
-            <div class="header-strips-one"></div>
-            <div class="clients t-center animated" data-animation="fadeIn" data-animation-delay="400">
-                <div class="item">
-                    <a class="client-image">
-                        <img src="images/clients/1.jpg" class="round" alt="Client" />
-                    </a>
-                    <h1 class="client-name uppercase bold">
-                        <span style="font-size: 1.75rem;">Ông</span> Nguyễn văn a
-                    </h1>
-                    <h3 class="client-position uppercase">
-                        TGD. Tập đoàn Vietnam Airlines
-                    </h3>
-                    <p class="client-desc">
-                        Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-                    </p>
-                </div>
-                <div class="item">
-                    <a class="client-image">
-                        <img src="images/clients/2.jpg" class="round" alt="Client" />
-                    </a>
-                    <h1 class="client-name uppercase bold">
-                        <span style="font-size: 1.75rem;">Ông</span> Nguyễn văn B
-                    </h1>
-                    <h3 class="client-position uppercase">
-                        TGD. Tập đoàn Vietnam Airlines
-                    </h3>
-                    <p class="client-desc">
-                        Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-                    </p>
-                </div>
-                <div class="item">
-                    <a class="client-image">
-                        <img src="images/clients/3.jpg" class="round" alt="Client" />
-                    </a>
-                    <h1 class="client-name uppercase bold">
-                        <span style="font-size: 1.75rem;">Bà</span> Nguyễn Thị C
-                    </h1>
-                    <h3 class="client-position uppercase">
-                        TGD. Tập đoàn Vietnam Airlines
-                    </h3>
-                    <p class="client-desc">
-                        Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ 
-                    </p>
-                </div>
-            </div>
+            <h3 class="client-position uppercase">
+              TGD. Tập đoàn Vietnam Airlines
+            </h3>
+            <p class="client-desc">
+              Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ
+              Thêm chữ Thêm chữ Thêm chữ Thêm chữ
+            </p>
+          </div>
+          <div class="item">
+            <a class="client-image">
+              <img src="images/clients/2.jpg" class="round" alt="Client" />
+            </a>
+            <h1 class="client-name uppercase bold">
+              <span style="font-size: 1.75rem">Ông</span> Nguyễn văn B
+            </h1>
+            <h3 class="client-position uppercase">
+              TGD. Tập đoàn Vietnam Airlines
+            </h3>
+            <p class="client-desc">
+              Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ
+              Thêm chữ Thêm chữ Thêm chữ Thêm chữ
+            </p>
+          </div>
+          <div class="item">
+            <a class="client-image">
+              <img src="images/clients/3.jpg" class="round" alt="Client" />
+            </a>
+            <h1 class="client-name uppercase bold">
+              <span style="font-size: 1.75rem">Bà</span> Nguyễn Thị C
+            </h1>
+            <h3 class="client-position uppercase">
+              TGD. Tập đoàn Vietnam Airlines
+            </h3>
+            <p class="client-desc">
+              Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ Thêm chữ
+              Thêm chữ Thêm chữ Thêm chữ Thêm chữ
+            </p>
+          </div>
         </div>
-        <div class="client-logos dark-bg">
-            <div class="logos boxed">
-                <a href="#" class="item">
-                    <img src="images/clients/logo1.png" alt="" />
-                </a>
-                <a href="#" class="item">
-                    <img src="images/clients/logo2.png" alt="" />
-                </a>
-                <a href="#" class="item">
-                    <img src="images/clients/logo3.png" alt="" />
-                </a>
-                <a href="#" class="item">
-                    <img src="images/clients/logo4.png" alt="" />
-                </a>
-                <a href="#" class="item">
-                    <img src="images/clients/logo5.png" alt="" />
-                </a>
-                <a href="#" class="item">
-                    <img src="images/clients/logo6.png" alt="" />
-                </a>
-                <a href="#" class="item">
-                    <img src="images/clients/logo4.png" alt="" />
-                </a>
-            </div>
+      </div>
+      <div class="client-logos dark-bg">
+        <div class="logos boxed">
+          <a href="#" class="item">
+            <img src="images/clients/logo1.png" alt="" />
+          </a>
+          <a href="#" class="item">
+            <img src="images/clients/logo2.png" alt="" />
+          </a>
+          <a href="#" class="item">
+            <img src="images/clients/logo3.png" alt="" />
+          </a>
+          <a href="#" class="item">
+            <img src="images/clients/logo4.png" alt="" />
+          </a>
+          <a href="#" class="item">
+            <img src="images/clients/logo5.png" alt="" />
+          </a>
+          <a href="#" class="item">
+            <img src="images/clients/logo6.png" alt="" />
+          </a>
+          <a href="#" class="item">
+            <img src="images/clients/logo4.png" alt="" />
+          </a>
         </div>
+      </div>
     </section>
     <section id="why-we" class="container-fluid">
-        <div class="inner clearfix">
-            <h1 class="header uppercase dark bold">
-                Câu hỏi thường gặp
-            </h1>
-            <div class="header-strips-one"></div>
-            <div class="items">
-                <div class="col-xs-12 w-left no-padding animated accordion" data-animation="fadeIn" data-animation-delay="0">
-                    <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="panel-button bold">
-                                1. Câu hỏi số 1:
-                            </a>
-                            <div id="collapseOne" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis neque ante. Cras non dui ac ligula facilisis ultricies sed nec risus. Phasellus elementum purus arcu, vel aliquam est placerat quis. Morbi semper nunc vel augue auctor tristique. Phasellus consequat nisi in tortor semper, maximus mattis lorem sagittis. Pellentesque non felis sit amet nibh malesuada ullamcorper. Duis purus ex, elementum et magna et, condimentum porta dui.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapsetwo" class="panel-button bold">
-                                1. Câu hỏi số 2:
-                            </a>
-                            <div id="collapsetwo" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis neque ante. Cras non dui ac ligula facilisis ultricies sed nec risus. Phasellus elementum purus arcu, vel aliquam est placerat quis. Morbi semper nunc vel augue auctor tristique. Phasellus consequat nisi in tortor semper, maximus mattis lorem sagittis. Pellentesque non felis sit amet nibh malesuada ullamcorper. Duis purus ex, elementum et magna et, condimentum porta dui.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default">
-                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="panel-button bold">
-                                3. Câu hỏi số 3:
-                            </a>
-                            <div id="collapseThree" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis neque ante. Cras non dui ac ligula facilisis ultricies sed nec risus. Phasellus elementum purus arcu, vel aliquam est placerat quis. Morbi semper nunc vel augue auctor tristique. Phasellus consequat nisi in tortor semper, maximus mattis lorem sagittis. Pellentesque non felis sit amet nibh malesuada ullamcorper. Duis purus ex, elementum et magna et, condimentum porta dui.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="inner clearfix">
+        <h1 class="header uppercase dark bold">Câu hỏi thường gặp</h1>
+        <div class="header-strips-one"></div>
+        <div class="items">
+          <div
+            class="col-xs-12 w-left no-padding animated accordion"
+            data-animation="fadeIn"
+            data-animation-delay="0"
+          >
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <a
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapseOne"
+                  class="panel-button bold"
+                >
+                  1. Câu hỏi số 1:
+                </a>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    quis neque ante. Cras non dui ac ligula facilisis ultricies
+                    sed nec risus. Phasellus elementum purus arcu, vel aliquam
+                    est placerat quis. Morbi semper nunc vel augue auctor
+                    tristique. Phasellus consequat nisi in tortor semper,
+                    maximus mattis lorem sagittis. Pellentesque non felis sit
+                    amet nibh malesuada ullamcorper. Duis purus ex, elementum et
+                    magna et, condimentum porta dui.
+                  </div>
                 </div>
+              </div>
+              <div class="panel panel-default">
+                <a
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapsetwo"
+                  class="panel-button bold"
+                >
+                  1. Câu hỏi số 2:
+                </a>
+                <div id="collapsetwo" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    quis neque ante. Cras non dui ac ligula facilisis ultricies
+                    sed nec risus. Phasellus elementum purus arcu, vel aliquam
+                    est placerat quis. Morbi semper nunc vel augue auctor
+                    tristique. Phasellus consequat nisi in tortor semper,
+                    maximus mattis lorem sagittis. Pellentesque non felis sit
+                    amet nibh malesuada ullamcorper. Duis purus ex, elementum et
+                    magna et, condimentum porta dui.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-default">
+                <a
+                  data-toggle="collapse"
+                  data-parent="#accordion"
+                  href="#collapseThree"
+                  class="panel-button bold"
+                >
+                  3. Câu hỏi số 3:
+                </a>
+                <div id="collapseThree" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                    quis neque ante. Cras non dui ac ligula facilisis ultricies
+                    sed nec risus. Phasellus elementum purus arcu, vel aliquam
+                    est placerat quis. Morbi semper nunc vel augue auctor
+                    tristique. Phasellus consequat nisi in tortor semper,
+                    maximus mattis lorem sagittis. Pellentesque non felis sit
+                    amet nibh malesuada ullamcorper. Duis purus ex, elementum et
+                    magna et, condimentum porta dui.
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <section id="back-top">
-        <a href="#home" class="scroll t-center white">
-            <i class="fa fa-angle-double-up"></i>
-        </a>
-    </section>    <div class="fab-container">
-        <div class="fab">+</div>
       </div>
+    </section>
+
+    <div class="fab-container">
+      <div class="fab-2 mb-2"><img src="images/logo/phone.png" /></div>
+      <div class="fab"><img src="images/logo/zalo1.png" /></div>
+    </div>
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.appear.js"></script>
@@ -636,11 +987,21 @@
     <script type="text/javascript" src="js/jquery.flexslider.js"></script>
     <script type="text/javascript" src="js/owl.carousel.js"></script>
     <script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-    <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/jquery.magnific-popup.min.js"
+    ></script>
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
-    <script type="text/javascript" src="js/revslider/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="js/revslider/jquery.themepunch.tools.min.js"></script>
+    <script
+      type="text/javascript"
+      src="js/revslider/jquery.themepunch.revolution.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/revslider/jquery.themepunch.tools.min.js"
+    ></script>
     <script type="text/javascript" src="js/revslider/revslider.js"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
-</body></html>
+  </body>
+</html>
