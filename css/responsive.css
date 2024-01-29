@@ -270,10 +270,22 @@
 }
 
 
+@media only screen and (min-width: 800px) {
+    .pc-ml-2 {
+        margin-left: 2rem !important;
+    }
+}
 
 /* MAX 800px */
 
 @media only screen and (max-width: 800px) {
+    .mb-text-center {
+        text-align:  center;
+    }
+    .cd-firstline {
+        margin-top: 10px !important;
+    }
+
 
     /* Team Boxes */
     #team .team .team-boxes .item {
@@ -448,6 +460,16 @@
 /* MAX 640px */
 
 @media only screen and (max-width: 640px) {
+
+    .soft-bg-icons {
+        margin-left: 6px;
+        margin-right: 6px;
+        padding: 6px   12px;
+        border-radius: 4px;
+        background-color: #f89a4d !important;
+        font-size: 16px;
+        font-weight: bold;
+    }
 
     /* Page Content */
     section.page-content .page-content-inner .content-left,

@@ -1736,9 +1736,10 @@ body.parallax #what-we-do {
 .soft-bg-icons {
     margin-left: 6px;
     margin-right: 6px;
-    padding: 6px    12px;
+    padding: 12px   24px;
     border-radius: 4px;
     background-color: #f89a4d !important;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -2943,7 +2944,7 @@ body.parallax .testimonials {
 #clients .clients .item p.client-desc {
     margin: 0 auto;
     padding: 0;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 
@@ -5968,4 +5969,68 @@ border: none;
 
 .fab img, .fab-2 img {
     max-width: 40px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.map-wrap iframe {
+    width: 100% !important;
+    min-height: 500px;
+}
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.mt-8 {
+    margin-top: 8rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.footer-spacing {
+    margin-top: 600px;
+}
+
+.footer-wrap {
+    display: block;
+    width: 100vw;
+    height: 100%;
+    background-color: #3150a1;
+    padding: 48px 32px;
+}
+
+.footer-nav {
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.footer-wrap li{
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+
+.footer-wrap a:hover {
+    color: #f89a4d;
+}
+
+.nav-inner div.nav-menu ul.nav li a:hover {
+    color: #303030 !important;
+}
+
+.nav-inner div.nav-menu ul.nav li a:active {
+    color: #303030 !important;
+}
+
+.big-bracket {
+    font-size: 24px;
 }
