@@ -267,6 +267,7 @@
     #team .team .team-boxes .item {
         padding: 0 15px;
     }
+    
 }
 
 
@@ -274,17 +275,44 @@
     .pc-ml-2 {
         margin-left: 2rem !important;
     }
+
+    .pc-show {
+        display: inline-block;
+    }
+
+    .pc-hide {
+        display: none;
+    }
+
 }
 
 /* MAX 800px */
 
 @media only screen and (max-width: 800px) {
+    .mb-text-right {
+        text-align:  right;
+    }
+
+    .pc-show {
+        display: none;
+    }
+
+    .pc-hide {
+        display: inline-block;
+    }
+
+
     .mb-text-center {
         text-align:  center;
     }
     .cd-firstline {
         margin-top: 10px !important;
     }
+    .button-main-primary {
+    
+        padding: 12px 24px;
+    }
+    
 
 
     /* Team Boxes */

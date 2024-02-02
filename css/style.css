@@ -5520,16 +5520,20 @@ ul.timeline {
 .timeline .year {
     width: 200px;
     height: 65px;
-    border: 3px solid #919191;
     border-radius: 300px;
-    background: white;
+    background: #f89a4d;
     clear: both;
     padding: 5px;
+    line-height: 36px;
     text-align: center;
     font-weight: 300;
-    color: #3c3d3d;
+    color: #303030;
     font-size: 20px;
     margin: 31px auto;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
@@ -5868,7 +5872,7 @@ border: none;
 } */
 
 .tab-content.container {
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 .mw-full {
@@ -5895,21 +5899,23 @@ border: none;
 
 .button-main-primary {
     display: inline-block;
-    padding: 12px 16px;
-    width: 260px;
-    margin: 10px 4px 0 0;
-    background-color: #284386;
+    padding: 6px 24px;
+    margin: 16px 4px 0 0;
+    background-color: #f89a4d;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
-    color: #fff;
+    color: #303030;
     margin-top: 16px;
     border-radius: 999px;
+    font-size: 16px;
+    font-weight: 900 !important;
+    box-shadow: 0 0 12px 8px #30303028;
 }
 
 
 .button-main-primary:hover {
-    background-color: #192b58;
+    background-color: #303030;
     color: #ffff;
 }
 
@@ -6033,4 +6039,63 @@ border: none;
 
 .big-bracket {
     font-size: 24px;
+    line-height: 0;
+}
+
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+.card-fancy-list {
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.card-fancy-list>* {
+    margin-bottom: 24px;
+}
+
+.card-fancy {
+    display: flex;
+    border-radius: 24px;
+    border: 2px solid #e0e0e0;
+    align-items: center;
+    transition: 0.3s ease all;
+}
+
+.card-fancy:hover {
+    border: 2px solid #f89a4d;
+}
+
+.card-fancy:hover h3 {
+    color: #3150a1;
+}
+
+.card-img {
+    width: 40%;
+    margin-right: 40px;
+}
+
+.card-img img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 22px 0 0 22px;
+}
+
+.card-description {
+
+}
+
+.card-description h3 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 800;
+    transition: 0.3s ease all;
+}
+
+.card-description p {
+    line-height: 24px;
+    font-size: 18px;
 }
