@@ -292,6 +292,13 @@
 /* MAX 800px */
 
 @media only screen and (max-width: 800px) {
+
+    .portfolio-wrap iframe{
+        width: 100% !important;
+        min-height: 300px;
+        max-width: 1240px;
+    }
+
     .card-fancy {
         display: block;
         border-radius: 24px;
